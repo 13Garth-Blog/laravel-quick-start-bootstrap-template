@@ -27,13 +27,13 @@ You must have composer PHP package manager already installed on your machine.
 
 Just use one of these lines for the relevant version of Laravel you want.
 ```
-// Exampkle 1 : 
+// Example 1 : 
 composer create-project --prefer-dist laravel/laravel blog "11.*"
 
-// Exampkle 2 : 
+// Example 2 : 
 composer create-project --prefer-dist laravel/laravel blog "10.*"
 
-// Exampkle 3 : 
+// Example 3 : 
 composer create-project --prefer-dist laravel/laravel blog "9.*"
 ```
 
