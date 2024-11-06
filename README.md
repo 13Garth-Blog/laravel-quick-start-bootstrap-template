@@ -1,4 +1,4 @@
-# Laravel quick start bootstrap template
+# Laravel quick start bootstrap template with AUTH
 My personal favorite clean slate Laravel CLI quick start guide.<br>
 Please remember these are my personal prefrences, there are many ways to setup different laravel projects. And I get this information from :<br>
 - 1: Personal Dev Experience in my career
