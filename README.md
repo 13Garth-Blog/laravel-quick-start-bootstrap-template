@@ -9,6 +9,7 @@ Please remember these are my personal prefrences, there are many ways to setup d
 You must have composer PHP package manager already installed on your machine.
   - If you don't have composer. Go install it. Just google composer PHP or try the links below :
       - Composer official website: https://getcomposer.org/
+      - For Windows download the .exe from Composer official website
       - For mac you can use "homebrew cli" : https://brew.sh/
       - For linux you can try these cli commands :
         - ```
@@ -17,6 +18,9 @@ You must have composer PHP package manager already installed on your machine.
           curl -sS https://getcomposer.org/installer -o composer-setup.php
           HASH="$(curl -sS https://composer.github.io/installer.sig)"
           php -r "if (hash_file('sha384', 'composer-setup.php') === '$HASH') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+          sudo php composer-setup.php --install-dir=/usr/local/bin --filename=composer
+          rm composer-setup.php
+          composer -V
           ```
 ---
 ## CLI Process
